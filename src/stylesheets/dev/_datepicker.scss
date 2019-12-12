@@ -1,0 +1,112 @@
+$gray: #4c5765;
+
+.react-datepicker-wrapper {
+  margin-right: 1px;
+}
+
+.react-datepicker {
+  font-size: 12px !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range {
+  background-color: $gray;
+}
+
+.sidnew .fSearch {
+  .react-datepicker-wrapper input[type="text"] {
+    width: 100%;
+  }
+
+  .react-datepicker {
+    border: 1px solid #aeaeae;
+  }
+
+  .react-datepicker__navigation {
+    border: 0.45em solid;
+    color: transparent;
+  }
+
+  .react-datepicker__navigation--next {
+    border-left-color: #ccc;
+  }
+
+  .react-datepicker__navigation--previous {
+    border-right-color: #ccc;
+  }
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+  width: 2.4rem !important;
+  height: 24px;
+  line-height: 24px;
+}
+.sidnew .fSearch .react-datepicker__navigation--previous{
+  left: 10px;
+  border:0.45rem solid transparent;
+    border-right-color: #ccc;
+}
+.sidnew .fSearch  .react-datepicker__navigation--previous:hover {
+    border-right-color: #b3b2b2;
+}
+.sidnew .fSearch .react-datepicker__navigation--next{
+  right: 10px;
+  border:0.45rem solid transparent;
+    border-left-color: #ccc;
+}
+.sidnew .fSearch .react-datepicker__navigation--next:hover{
+  border-left-color: #b3b2b2;
+}
+
+.react-datepicker__current-month {
+  font-size: 1em !important;
+}
+.sidnew  {
+  .react-datepicker-wrapper input[type="text"] {
+    width: 100%;
+  }
+  .react-datepicker {
+    border: 1px solid #aeaeae;
+  }
+
+  .react-datepicker__navigation {
+    border: 0.45em solid;
+    color: transparent;
+  }
+
+  .react-datepicker__navigation--next {
+    border-left-color: #ccc;
+  }
+
+  .react-datepicker__navigation--previous {
+    border-right-color: #ccc;
+  }
+}
+.sidnew .react-datepicker__navigation--previous{
+  left: 10px;
+  border:0.45rem solid transparent;
+    border-right-color: #ccc;
+}
+.sidnew  .react-datepicker__navigation--previous:hover {
+    border-right-color: #b3b2b2;
+}
+.sidnew .react-datepicker__navigation--next{
+  right: 10px;
+  border:0.45rem solid transparent;
+    border-left-color: #ccc;
+}
+.sidnew .react-datepicker__navigation--next:hover{
+  border-left-color: #b3b2b2;
+}
+
+.sidnew .pedido-date-picker.datepicker-control {
+  .react-datepicker-wrapper, .react-datepicker__input-container {
+    display: block;
+  }
+}
+
+.sidnew .react-datepicker-popper {
+  z-index: 99;
+}

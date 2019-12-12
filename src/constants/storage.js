@@ -1,0 +1,9 @@
+export const USER = JSON.parse(localStorage.getItem('user'));
+export const TOKEN = USER && USER.usuario.userAccessToken ? USER.usuario.userAccessToken : null;
+export const USERNAME = USER ? USER.usuario.usuarioUser : null;
+export const IDUSUARIO = USER ? USER.usuario.usuarioId : null;
+export const LIST_IDPROCESO = USER && USER.procesoList ? USER.procesoList : null;
+export const OPTIONS_LIST = USER && USER.opcionList ? USER.opcionList : null;
+export const USUARIO_NOMBRE = USER ? (USER.usuario.usuarioApePaterno +' '+ USER.usuario.usuarioApeMaterno+' '+ USER.usuario.usuarioNombres) : null; 
+export const PATH = USER && USER.path ? USER.path : '/desa/';
+export const PERFILES = USER && USER.perfilList ? USER.perfilList : null;

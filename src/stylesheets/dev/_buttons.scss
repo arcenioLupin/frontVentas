@@ -1,0 +1,41 @@
+$orange: #f8a14a;
+$red: #f56669;
+$white: #fff;
+
+.btn-return {
+  background-color: transparent;
+  color: $orange;
+  border: 1px solid $orange;
+  padding: 6px 12px;
+}
+
+.btn-red {
+  background-color: $red;
+  color: $white;
+  border: 1px solid $red;
+}
+
+@media (min-width: 992px) {
+  .tabs-left,
+  .tabs-right {
+    display: none;
+  }
+}
+
+.menuMob {
+  .panel-body {
+    padding: 0;
+  }
+}
+
+// .panel.menuMob::before {
+//   background-color: rgba(0, 0, 0, 0.6);
+// }
+
+.menuMob-list {
+  background-color: $white;
+}
+
+.pill.pill-block {
+  max-width: 120px;
+}

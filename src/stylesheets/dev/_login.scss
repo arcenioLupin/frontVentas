@@ -1,0 +1,42 @@
+#login {
+  margin: 20px auto;
+  padding: 30px;
+  max-width: 400px;
+  flex: 0 1 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+  label {
+    margin: 0;
+  }
+
+  input {
+    margin: 5px 0 20px;
+  }
+
+  input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc
+  }
+
+  button {
+    color: #fff;
+    background-color: #F8A14A;
+    border-color: transparent;
+  }
+
+  p {
+    margin: 10px 0 0;
+    color: #F56669;
+  }
+}
+
+.login-container {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+}

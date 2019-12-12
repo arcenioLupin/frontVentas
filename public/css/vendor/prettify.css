@@ -1,0 +1,106 @@
+.linenums {
+  margin: 0;
+  /* string  - pink */
+  /* comment - skyblue */
+  /* type    - lightgreen */
+  /* literal - darkred */
+  /* punctuation */
+  /* plaintext */
+  /* html/xml tag    - lightyellow */
+  /* attribute name  - khaki */
+  /* attribute value - pink */
+  /* decimal         - lightgreen */
+  /* Specify class=linenums on a pre to get line numbering */
+  /* Alternate shading for lines */ }
+  .linenums .tag {
+    padding: 0;
+    display: inline;
+    background-color: transparent;
+    font-size: inherit;
+    text-transform: lowercase; }
+  .linenums .linenums {
+    overflow: auto;
+    height: 300px;
+    margin-left: -90px; }
+  .linenums ol {
+    padding-left: 0; }
+  .linenums.prettyprint {
+    display: block;
+    background-color: #434D5C;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.07);
+            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.07); }
+  .linenums .nocode {
+    background-color: none;
+    color: #000; }
+  .linenums .str {
+    color: #ffa0a0; }
+  .linenums .kwd {
+    color: #f0e68c;
+    font-weight: bold; }
+  .linenums .com {
+    color: #87ceeb; }
+  .linenums .typ {
+    color: #98fb98; }
+  .linenums .lit {
+    color: #cd5c5c; }
+  .linenums .pun {
+    color: #fff; }
+  .linenums .pln {
+    color: #fff; }
+  .linenums .tag {
+    color: #ef647c;
+    font-weight: bold; }
+  .linenums .atn {
+    color: #5fd2bd;
+    font-weight: bold; }
+  .linenums .atv {
+    color: #fdcc85; }
+  .linenums .dec {
+    color: #98fb98; }
+  .linenums li.L0, .linenums li.L1, .linenums li.L2, .linenums li.L3, .linenums li.L5, .linenums li.L6, .linenums li.L7, .linenums li.L8 {
+    list-style-type: none; }
+  .linenums li.L1, .linenums li.L3, .linenums li.L5, .linenums li.L7, .linenums li.L9 {
+    background-color: transparent !important; }
+
+xmp.linenums {
+  margin: 0;
+  font-size: 16px;
+  padding-left: 0;
+  overflow: hidden;
+  padding-left: 0; }
+
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #AEAEAE; }
+
+/* IE indents via margin-left */
+@media print {
+  xmp.prettyprint {
+    background-color: none; }
+  xmp .str, code .str {
+    color: #060; }
+  xmp .kwd, code .kwd {
+    color: #006;
+    font-weight: bold; }
+  xmp .com, code .com {
+    color: #600;
+    font-style: italic; }
+  xmp .typ, code .typ {
+    color: #404;
+    font-weight: bold; }
+  xmp .lit, code .lit {
+    color: #044; }
+  xmp .pun, code .pun {
+    color: #440; }
+  xmp .pln, code .pln {
+    color: #000; }
+  xmp .tag, code .tag {
+    color: #006;
+    font-weight: bold; }
+  xmp .atn, code .atn {
+    color: #404; }
+  xmp .atv, code .atv {
+    color: #060; } }

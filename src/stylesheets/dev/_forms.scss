@@ -1,0 +1,32 @@
+.breadcrumb-item-link,
+.tabs-itemPill-link {
+  cursor: pointer;
+}
+
+.fSearch-filter.form-control::before {
+  content: "\f104";
+}
+
+.ion-ios-minus-outline {
+  font-size: 18px;
+
+  &::before {
+    font-weight: bolder;
+  }
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.autocomplete {
+  display: flex;
+}
+
+.searchOption {
+  width: 100%;
+}
+
+input.form-control.awesomplete.pillSelct-input {
+  padding-left: 30px;
+}

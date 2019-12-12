@@ -1,0 +1,45 @@
+.carCard-subTitles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-lg-title.btn-clean {
+  margin: 0;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.sidnew .custom-panel.card-panel {
+  margin-bottom: 0;
+  border-top: 0;
+  box-shadow: none;
+
+  .panel-body {
+    padding: 0;
+  }
+}
+
+.sidnew .fdv-validateList li {
+  position: relative;
+
+  .tooltip {
+    z-index: 200;
+    bottom: 150%;
+    width: 0;
+    height: 0;
+  }
+}
+
+.sidnew .fdv-validateList li:hover .tooltip {
+  height: inherit;
+  opacity: 0.9;
+  min-width: 150px;
+  max-width: 250px;
+  padding: 3px 5px;
+  color: white;
+  background-color: #434D5C;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}

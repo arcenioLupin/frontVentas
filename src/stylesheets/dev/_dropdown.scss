@@ -1,0 +1,17 @@
+.sidnew .dropdown-control,
+.sidnew .tabs-itemPill .tabs-itemPill-link,
+.sidnew .tabs-itemPill .tabs-itemPill-label,
+.sidnew .tabs-itemPill i {
+  pointer-events: none;
+}
+
+.sidnew .customToggle {
+  cursor: pointer;
+  .kebab-btn,
+  .ion-android-more-vertical,
+  .dropdown-toggle,
+  .dropdown-toggle span,
+  .dropdown-toggle i {
+    pointer-events: none;
+  }
+}
