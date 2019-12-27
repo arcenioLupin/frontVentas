@@ -6,6 +6,9 @@ import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Empresas from './Empresas';
+import Regimen from './Regimen';
+import Usuarios from './Usuarios';
+import Perfil from './Perfil';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -72,13 +75,13 @@ export default function SimpleTabs() {
         <Empresas />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Régimen Laboral
+         <Regimen />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Usuarios
+        <Usuarios />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Perfil de Usuarios
+        <Perfil />
       </TabPanel>
       <TabPanel value={value} index={4}>
         Tipo de Documento

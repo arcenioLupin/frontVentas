@@ -2,24 +2,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const TablaEmpresas = props => (
+const TablaPerfil = props => (
   <tbody>
-    {props.listaEmpresas.length ? (
-      props.listaEmpresas.map((data, index) => (
+    {props.listaPerfiles.length ? (
+      props.listaPerfiles.map((data, index) => (
         <tr key={index}>
-          <td>{data.empresaCodigo}</td>
-          <td>{data.empresaRazonSoc}</td>
-          <td>{data.empresaGiro}</td>
-          <td>{data.empresaTipo}</td>
-          <td >{data.empresaRepLegal}</td>
-          <td>{data.empresaTelf}</td>
-          <td>{data.empresaEmail}</td>
+          <td></td>
+          <td></td>
+          <td>{data.perfilId}</td>
+          <td>{data.perfilDescripcion}</td>
           <td className="col-xs-1" style={{ textAlign: "center" }}>
                  <button
                   className='btn btn-warning'
-                  title='Aprobación'
+                  title='Editar'
                   onClick={e =>
-                  props.editarEmpresa(1,data)
+                  props.editarPerfil(1,data)
                   }
                   
                 >
@@ -31,7 +28,7 @@ const TablaEmpresas = props => (
                   className='btn btn-warning'
                   title='Eliminar'
                   onClick={e =>
-                    props.eliminarEmpresa(index,data.empresaId)
+                    props.eliminarPerfil(index,data.perfilId)
                   }
                   
                 >
@@ -53,4 +50,4 @@ const TablaEmpresas = props => (
   </tbody>
 )
 
-export default TablaEmpresas
+export default TablaPerfil
